@@ -1,2 +1,0 @@
-(this.webpackJsonpmax=this.webpackJsonpmax||[]).push([[0],{124:function(n,t,e){e(125),n.exports=e(311)},311:function(n,t,e){"use strict";e.r(t);e(121);var o=e(123),s=e.n(o);e(316);s.a.render("Hello ADWDWA",document.getElementById("root"))},316:function(n,t,e){}},[[124,1,2]]]);
-//# sourceMappingURL=main.389a5004.chunk.js.map

@@ -7,10 +7,14 @@ body {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.7px;
-  color: #39464E; }
+  color: whitesmoke;
+  background: #1d252a; }
 
 * {
   box-sizing: border-box; }
 
+.math-1a-5di {
+  padding: 15px; }
 
-/*# sourceMappingURL=main.6fe616b5.chunk.css.map*/
+
+/*# sourceMappingURL=main.683763c8.chunk.css.map*/
