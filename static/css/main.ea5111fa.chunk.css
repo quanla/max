@@ -9,12 +9,16 @@ body {
   letter-spacing: 0.7px;
   color: whitesmoke;
   background: #1d252a; }
+  body a {
+    color: #b4b4ff; }
+    body a:visited {
+      color: #b4b4ff; }
 
 * {
   box-sizing: border-box; }
 
-.math-1a-5di {
+.math-main-1 {
   padding: 15px; }
 
 
-/*# sourceMappingURL=main.683763c8.chunk.css.map*/
+/*# sourceMappingURL=main.ea5111fa.chunk.css.map*/
