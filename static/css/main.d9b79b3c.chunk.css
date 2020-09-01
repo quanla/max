@@ -38,6 +38,7 @@ body {
       align-items: center; }
       @media screen and (min-width: 768px) {
         .game-1i1 > .box > .line1 {
+          display: block;
           white-space: nowrap; } }
       .game-1i1 > .box > .line1 > .word-list {
         display: inline-block;
@@ -109,4 +110,4 @@ body {
     color: #d4d4d4; }
 
 
-/*# sourceMappingURL=main.d317a22c.chunk.css.map*/
+/*# sourceMappingURL=main.d9b79b3c.chunk.css.map*/
