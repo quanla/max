@@ -95,14 +95,18 @@ body {
         width: 30px; }
 
 .word-list-9yf > .word {
+  user-select: none;
   font-weight: bold;
   color: #9b5e27;
   display: inline-block;
-  padding: 5px 5px; }
+  padding: 5px 5px;
+  cursor: pointer; }
   @media screen and (min-width: 768px) {
     .word-list-9yf > .word {
       display: block;
       padding: 5px 15px; } }
+  .word-list-9yf > .word:hover {
+    background: #f6f6f6; }
   .word-list-9yf > .word.selected {
     background: #d8fad8;
     color: #037203; }
@@ -110,4 +114,4 @@ body {
     color: #d4d4d4; }
 
 
-/*# sourceMappingURL=main.d9b79b3c.chunk.css.map*/
+/*# sourceMappingURL=main.8a8c3d40.chunk.css.map*/
