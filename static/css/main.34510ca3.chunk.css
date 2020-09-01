@@ -45,6 +45,8 @@ body {
           .game-1i1 > .box > .line1 > .wordList > .word.selected {
             background: #d8fad8;
             color: #037203; }
+          .game-1i1 > .box > .line1 > .wordList > .word.disabled {
+            color: #d4d4d4; }
       .game-1i1 > .box > .line1 > .grid {
         display: inline-block; }
     .game-1i1 > .box > .status > .congratulations {
@@ -88,4 +90,4 @@ body {
         width: 30px; }
 
 
-/*# sourceMappingURL=main.1e5dd98d.chunk.css.map*/
+/*# sourceMappingURL=main.34510ca3.chunk.css.map*/
