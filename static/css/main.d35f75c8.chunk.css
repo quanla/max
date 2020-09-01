@@ -34,19 +34,10 @@ body {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); }
     .game-1i1 > .box > .line1 {
       white-space: nowrap; }
-      .game-1i1 > .box > .line1 > .wordList {
+      .game-1i1 > .box > .line1 > .word-list {
         display: inline-block;
         vertical-align: top;
         margin-right: 40px; }
-        .game-1i1 > .box > .line1 > .wordList > .word {
-          padding: 5px 15px;
-          font-weight: bold;
-          color: #9b5e27; }
-          .game-1i1 > .box > .line1 > .wordList > .word.selected {
-            background: #d8fad8;
-            color: #037203; }
-          .game-1i1 > .box > .line1 > .wordList > .word.disabled {
-            color: #d4d4d4; }
       .game-1i1 > .box > .line1 > .grid {
         display: inline-block; }
     .game-1i1 > .box > .status > .congratulations {
@@ -73,6 +64,8 @@ body {
       font-size: 18px; }
       .grid-3ow > table > tbody > tr > td.green {
         background: #c7ffc7; }
+      .grid-3ow > table > tbody > tr > td.yellow {
+        background: #fbffc7; }
   .grid-3ow > .markedLocations {
     pointer-events: none;
     position: absolute;
@@ -89,5 +82,15 @@ body {
       .grid-3ow > .markedLocations > .location.vertical {
         width: 30px; }
 
+.word-list-9yf > .word {
+  padding: 5px 15px;
+  font-weight: bold;
+  color: #9b5e27; }
+  .word-list-9yf > .word.selected {
+    background: #d8fad8;
+    color: #037203; }
+  .word-list-9yf > .word.disabled {
+    color: #d4d4d4; }
 
-/*# sourceMappingURL=main.34510ca3.chunk.css.map*/
+
+/*# sourceMappingURL=main.d35f75c8.chunk.css.map*/
