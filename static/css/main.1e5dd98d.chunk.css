@@ -1,0 +1,91 @@
+html, body {
+  height: 100%;
+  margin: 0; }
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.7px; }
+  body a {
+    color: #04178c; }
+    body a:visited {
+      color: #404462; }
+
+* {
+  box-sizing: border-box; }
+
+.math-main-1 {
+  padding: 15px; }
+  .math-main-1 > .config {
+    margin-top: 20px; }
+
+.game-1i1 {
+  padding-top: 40px;
+  text-align: center;
+  background: #d6d6d6;
+  min-height: 100vh; }
+  .game-1i1 > .box {
+    display: inline-block;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); }
+    .game-1i1 > .box > .line1 {
+      white-space: nowrap; }
+      .game-1i1 > .box > .line1 > .wordList {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 40px; }
+        .game-1i1 > .box > .line1 > .wordList > .word {
+          padding: 5px 15px;
+          font-weight: bold;
+          color: #9b5e27; }
+          .game-1i1 > .box > .line1 > .wordList > .word.selected {
+            background: #d8fad8;
+            color: #037203; }
+      .game-1i1 > .box > .line1 > .grid {
+        display: inline-block; }
+    .game-1i1 > .box > .status > .congratulations {
+      font-size: 30px;
+      font-weight: 600;
+      padding: 30px 0;
+      color: #037203; }
+    .game-1i1 > .box .controls {
+      margin-top: 40px;
+      text-align: right; }
+
+.grid-3ow {
+  position: relative; }
+  .grid-3ow > table {
+    border-collapse: collapse;
+    user-select: none; }
+    .grid-3ow > table > tbody > tr > td {
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      background: #fff7f7;
+      border: 1px solid #e5cccc;
+      user-select: none;
+      font-size: 18px; }
+      .grid-3ow > table > tbody > tr > td.green {
+        background: #c7ffc7; }
+  .grid-3ow > .markedLocations {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    .grid-3ow > .markedLocations > .location {
+      position: absolute;
+      border-radius: 15px;
+      border: 2px solid #6df16d; }
+      .grid-3ow > .markedLocations > .location.horizontal {
+        height: 30px; }
+      .grid-3ow > .markedLocations > .location.vertical {
+        width: 30px; }
+
+
+/*# sourceMappingURL=main.1e5dd98d.chunk.css.map*/
