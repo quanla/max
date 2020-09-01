@@ -111,7 +111,9 @@ body {
     background: #d8fad8;
     color: #037203; }
   .word-list-9yf > .word.disabled {
-    color: #d4d4d4; }
+    color: #d4d4d4;
+    background: none;
+    cursor: default; }
 
 
-/*# sourceMappingURL=main.8a8c3d40.chunk.css.map*/
+/*# sourceMappingURL=main.ddd68505.chunk.css.map*/
