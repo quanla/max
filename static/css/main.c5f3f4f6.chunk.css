@@ -33,11 +33,22 @@ body {
     border: 1px solid #d6d6d6;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); }
     .game-1i1 > .box > .line1 {
-      white-space: nowrap; }
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      @media screen and (min-width: 768px) {
+        .game-1i1 > .box > .line1 {
+          white-space: nowrap; } }
       .game-1i1 > .box > .line1 > .word-list {
         display: inline-block;
         vertical-align: top;
-        margin-right: 40px; }
+        margin-top: 10px;
+        order: 1; }
+        @media screen and (min-width: 768px) {
+          .game-1i1 > .box > .line1 > .word-list {
+            order: 0;
+            margin-top: 0;
+            margin-right: 40px; } }
       .game-1i1 > .box > .line1 > .grid {
         display: inline-block; }
     .game-1i1 > .box > .status > .congratulations {
@@ -83,9 +94,14 @@ body {
         width: 30px; }
 
 .word-list-9yf > .word {
-  padding: 5px 15px;
   font-weight: bold;
-  color: #9b5e27; }
+  color: #9b5e27;
+  display: inline-block;
+  padding: 3px 5px; }
+  @media screen and (min-width: 768px) {
+    .word-list-9yf > .word {
+      display: block;
+      padding: 5px 15px; } }
   .word-list-9yf > .word.selected {
     background: #d8fad8;
     color: #037203; }
@@ -93,4 +109,4 @@ body {
     color: #d4d4d4; }
 
 
-/*# sourceMappingURL=main.d35f75c8.chunk.css.map*/
+/*# sourceMappingURL=main.c5f3f4f6.chunk.css.map*/
