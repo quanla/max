@@ -149,7 +149,8 @@ body {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     max-width: calc(100% - 30px); }
     .typing-1-1ws > .main > .title {
-      font-size: 30px; }
+      font-size: 30px;
+      margin-bottom: 30px; }
     .typing-1-1ws > .main > .sample {
       margin-bottom: 30px; }
     .typing-1-1ws > .main > textarea {
@@ -170,4 +171,4 @@ body {
     background: rgba(255, 0, 0, 0.1); }
 
 
-/*# sourceMappingURL=main.bbbbca84.chunk.css.map*/
+/*# sourceMappingURL=main.95a8f340.chunk.css.map*/
